@@ -1,10 +1,4 @@
-/*D3 assessment: approach
-1. Initialise a SVG container using d3.js to display a map. 
-2. Create a container for the map within an SVG box and center the map in it.
-3. Create a slider ranging from 1 - 100 with initial value as 50. Changes in slider value triggers a function to 
-fetch and plot locations on the map. Hover ont he locations displays the name of location and the population.
-4. Implement a reload button to clear the map of locations and to fetch and display a new set of locations.
-*/
+/*D3 assessment: approach is defined in detail in the README file in github */
 
 // Define the width and height of the map container to fit the browser display
 const width = window.innerWidth;
