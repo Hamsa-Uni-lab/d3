@@ -1,0 +1,41 @@
+/*Updating styles for Reload button and slider */
+#reloadButton {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px; /* this value will change the distance from the bottom */
+    left: 50%; /* Positioning the button horizontally */
+    transform: translateX(60%); /* Center the button horizontally */
+}
+
+#reloadButton:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}
+
+.slider-container {
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-60%);
+    text-align: center;
+}
+
+/* Additional styles for the slider */
+input[type="range"] {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.slider-value-display {
+    font-weight: bold;
+}
+
